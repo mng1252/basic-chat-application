@@ -6,7 +6,7 @@ import time
 connected_clients = []
 host_address = '0.0.0.0'
 port_address = 12345
-
+#new changes!
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind((host_address, port_address))
 server_socket.listen(5)
